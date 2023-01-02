@@ -5,7 +5,7 @@
 //  Created by 長政輝 on 2023/01/02.
 //
 
-import Foundation
+import CoreGraphics
 
 struct HexagonParameters {
     struct Segment {
