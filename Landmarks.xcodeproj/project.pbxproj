@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F8FE38129658E98004D2BBE /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8FE38029658E98004D2BBE /* CategoryHome.swift */; };
 		9FEA1B2A2961B4ED0013A6BD /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEA1B292961B4ED0013A6BD /* ModelData.swift */; };
 		9FEA1B2C2961B4F40013A6BD /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEA1B2B2961B4F40013A6BD /* Landmark.swift */; };
 		9FEA1B2F2961B5390013A6BD /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9FEA1B2E2961B5390013A6BD /* landmarkData.json */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F8FE38029658E98004D2BBE /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		9FEA1B292961B4ED0013A6BD /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		9FEA1B2B2961B4F40013A6BD /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		9FEA1B2E2961B5390013A6BD /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
@@ -72,13 +74,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F8FE37F29658E7D004D2BBE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9F8FE38029658E98004D2BBE /* CategoryHome.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		9FEA1B272961B4BE0013A6BD /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				9FEF2B9F296087A900EF759E /* ContentView.swift */,
-				9FEA1B4C296585370013A6BD /* Hikes */,
 				9FEA1B382962E57A0013A6BD /* Landmarks */,
 				9FEA1B452962FA030013A6BD /* Badges */,
+				9FEA1B4C296585370013A6BD /* Hikes */,
+				9F8FE37F29658E7D004D2BBE /* Categories */,
 				9FEA1B392962E59C0013A6BD /* Helpers */,
 			);
 			path = Views;
@@ -256,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FEF2BA0296087A900EF759E /* ContentView.swift in Sources */,
+				9F8FE38129658E98004D2BBE /* CategoryHome.swift in Sources */,
 				9FEA1B52296585370013A6BD /* HikeGraph.swift in Sources */,
 				9FEA1B432962F83A0013A6BD /* Badge.swift in Sources */,
 				9FEF2BAE29608E4B00EF759E /* MapView.swift in Sources */,
